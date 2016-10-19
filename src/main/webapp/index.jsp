@@ -1,5 +1,6 @@
+<%@ page import="com.samsolutions.Message" %>
 <html>
 <body>
-<h2>Hello World!!!</h2>
+<h2><%=Message.getMessage()%></h2>
 </body>
 </html>
